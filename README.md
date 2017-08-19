@@ -19,7 +19,7 @@ Confluence DotNet API是Confluence的DotNet实现，基于RPC/XML协议实现。
         private string token;
         private string username = "username";
         private string password = "password";
-        private string confluence_url = "http://116.52.252.130:8090/rpc/xmlrpc";
+        private string confluence_url = "http://your_confluence_site/rpc/xmlrpc";
 
         [SetUp]
         public void SetUp()
